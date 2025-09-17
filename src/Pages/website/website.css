@@ -1,0 +1,70 @@
+.web-back-ground{
+    width: 100%;
+    height: 100vh;
+    margin-top: 90px;
+    z-index: -1;
+    background-image: url('../../image/background-website.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* .div-parent{
+     background-image: url('../../image/background-website.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+} */
+.cate-web{
+   
+    width: 70%;
+    padding: 10px;
+    margin-inline: auto;
+    margin-top: 100px;
+     gap: 2% ;
+    
+}
+
+.cate-web .div-link{
+    width: calc(92% / 3);
+    min-width: 200px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(5, 5, 112);
+    border-radius: 5px;
+    padding: 2px;
+    background-color:white;
+}
+/***** product *****/
+.pro-parent{
+    background-color: white;
+    color: black;
+    width: calc(91% / 4);
+    min-width: 250px;
+    min-height: 410px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    gap:5px; 
+}
+.text-oveer-flow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.scale:hover{
+    cursor: pointer !important;
+    transform: scale(1.1);
+}
+.btn-shop {
+    color: white;
+    background-color: #050570;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px white;
+}
+.div-nav-bar-info .btn-primary{
+    background-color: transparent !important;
+    border: none;
+    color: #ff914d;
+    padding: 0;
+}

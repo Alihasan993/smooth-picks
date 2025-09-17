@@ -1,0 +1,34 @@
+/* content-header style */
+.content-header{
+    background: linear-gradient(to right,#00008b,white);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 4px 0px rgb(151 146 146);
+    color: white;
+}
+
+/* table style */
+.users-table{
+    margin: 5px;
+    border-collapse: collapse !important;
+    box-shadow: 0px 0px 4px 0px rgb(151 146 146);
+
+}
+.users-table  th{
+    background-color: #3eb57ec2;
+    color: white;
+    padding: 10px;
+    
+}
+.table-search{
+    background-image: url("../../image/icon-search.png");
+    background-repeat: no-repeat;
+    background-size: 40px, 40px;
+    padding-inline-start: 40px;
+}
+.table-search::placeholder{
+    padding-inline-start: 30px;
+}

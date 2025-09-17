@@ -1,0 +1,42 @@
+@media (max-width:767px) {
+    .form-parent{
+         background-image:none
+    }
+     .form{
+        width: 90%;
+     }
+     .form input {
+        padding: 15px 20px;
+     }
+     .web-back-ground{
+      background-image: url('../image/background-website2.jpg') !important;
+     }
+     .welcome-message{
+      width: 310px !important;
+      text-align: center !important;
+      font-weight: bolder !important;
+      left: 0 !important;
+      top: 305px !important;
+     }
+     .welcome-message h4{
+      color: white !important;
+     }
+     .product-single{
+      margin-top: 180px !important;
+      gap: 50px!important;
+     }
+     .cate-single{
+      margin-top: 190px !important;
+     }
+     .div-parent-table{
+      overflow-x: auto;
+     }
+     .website-cate{
+      margin-top: 100px !important;
+     }
+}
+@media (max-width:390px) {
+    .div-logo-list{
+      width: 200px !important;
+    }
+}

@@ -1,0 +1,39 @@
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+.sid-bar{
+    top: 70px;
+    left: 0;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 20px 10px;
+}
+a{
+    text-decoration: none;
+}
+.sid-bar-link{
+    font-size: 25px;
+    color: #495057;
+    padding: 10px;
+}
+.sid-bar-link:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.sid-bar .active{
+    background-color: #f2f3fe;
+    color: #038edc;
+    border-radius: 5px;
+}
+.sid-bar .active:hover{
+    transform: scale(1);
+}
