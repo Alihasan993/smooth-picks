@@ -1,4 +1,4 @@
-@media (max-width:767px) {
+@media (max-width:768px) {
     .form-parent{
          background-image:none
     }
@@ -35,7 +35,7 @@
       margin-top: 100px !important;
      }
 }
-@media (max-width:390px) {
+@media (max-width:480px) {
     .div-logo-list{
       width: 200px !important;
     }

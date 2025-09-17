@@ -42,7 +42,7 @@ export default function SearchProduct(){
       
         <Container>
             <div className=" d-flex align-items-center justify-content-center flex-wrap w-100" 
-            style={{gap:'3%',marginTop:windowSize>'767'?'120px':'190px'}}>
+            style={{gap:'3%',marginTop:windowSize>'768'?'120px':'190px'}}>
                {proS}
             </div>
         </Container>

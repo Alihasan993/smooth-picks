@@ -143,7 +143,7 @@ export default function NavBar(){
             <div>
               <NavLink to='/' > <img width={'120px'}  src={require('../../image/Logo.png') } alt="logo"/></NavLink>
             </div>
-            {mobSize.windowSize>='650' &&<div>
+            {mobSize.windowSize>='768' &&<div>
                 <div className="row justify-content-center" ref={divRef}  >
                       <div className="input-group" >
                         <input className="form-control form-control-lg" type="search"
@@ -170,7 +170,7 @@ export default function NavBar(){
             </div>
         </div>
          
-         {mobSize.windowSize<'650' &&<div>
+         {mobSize.windowSize<'768' &&<div>
                 <div className="row justify-content-center" >
                       <div className="input-group" style={{width:'98%'}}  >
                         <input className="form-control form-control-lg " type="search"
